@@ -12,3 +12,13 @@ query{
     id, username, age
   }
 }
+
+
+mutation{
+  createUser(input:{
+    username:"Petssyas",
+    age:25
+  }) {
+    id, username
+  }
+}
